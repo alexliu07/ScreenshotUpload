@@ -30,11 +30,12 @@
 运行模式将不会有任何提示
 1. Python版本使用
     - 首先安装pyautogui,pillow,requests库
-    - 运行模式建议使用pythonw运行（隐藏窗口）
+    - 运行模式建议使用pythonw运行（隐藏窗口）<br>
+    设定模式：
+    `pythonw client.py set`<br>
+    运行模式：
+    `pythonw client.py run`
     <br>
-    `pythonw client.py set`（设定模式）
-    <br>
-    `pythonw client.py run`（运行模式）
 2. Windows版本使用
     <br>
     `client set`（设定模式）
